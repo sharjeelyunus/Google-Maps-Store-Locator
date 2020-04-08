@@ -15,6 +15,6 @@ Google Maps Store Locator App via JavaScript (Challenge).
 
 - ✔ Add input box
 
-- 🛠 Add Store List Container
+- ✔ Add Store List Container
 
 - 🛠 Add Individual Store Container

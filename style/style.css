@@ -13,7 +13,7 @@ body {
 .title {
     position: absolute;
     z-index: 100;
-    font-size: 65px;
+    font-size: 80px;
     font-weight: bold;
     color: #333;
     text-transform: uppercase;
@@ -25,7 +25,7 @@ body {
     border-radius: 30px;
     position: absolute;
     z-index: 100;
-    top: 230px;
+    top: 200px;
     left: 100px;
     width: 400px;
     height: 60px;
@@ -56,4 +56,15 @@ body {
 .search i {
     font-size: 25px;
     color: white;
+}
+
+.stores-list-container {
+    width: 400px;
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    left: 100px;
+    top: 270px;
+    border-radius: 30px;
+    bottom: 20px;
 }

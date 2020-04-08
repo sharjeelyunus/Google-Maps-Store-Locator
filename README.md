@@ -1,9 +1,9 @@
-# Google Maps Store Locator
+# Google Maps Store Locator🌎
 
-Google Maps Store Locator App via JavaScript (Challenge)
+Google Maps Store Locator App via JavaScript (Challenge).
+- Helps to Locate Stores on Map.
 
-# Plan Of Action
-
+## Plan Of Action
 
 - ✔ Create Wireframe
 
@@ -13,7 +13,7 @@ Google Maps Store Locator App via JavaScript (Challenge)
 
 - ✔ Add the text store locator
 
-- 🛠 Add input box
+- ✔ Add input box
 
 - 🛠 Add Store List Container
 

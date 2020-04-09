@@ -3,7 +3,7 @@
 Google Maps Store Locator App via JavaScript (Challenge).
 - Helps to Locate Stores on Map.
 
-## Plan Of Action
+## Plan Of Action ✈
 
 - ✔ Create Wireframe
 - ✔ Setup base HTML Structure
@@ -14,6 +14,6 @@ Google Maps Store Locator App via JavaScript (Challenge).
 - ✔ Add Individual Store Container
 - ✔ Style the individual store item in the Stores list
 - ✔ Show all the stores in the stores list based on real world data
-- 🛠 Show the marker based on real world store data
+- ✔ Show the marker based on real world store data
 - 🛠 Show the info window when you click on the individual store
 - 🛠 Add a beautiful transition on the hover of the individual store

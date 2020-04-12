@@ -121,3 +121,39 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.store-info-window {
+    min-width: 300px;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.store-info-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .87);
+}
+
+.store-info-status {
+    margin-top: 6px;
+    border-bottom: 1px solid #00000029;
+    padding-bottom: 6px;
+}
+
+.store-info-address , .store-info-phone {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    background-color: #1985A1;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}

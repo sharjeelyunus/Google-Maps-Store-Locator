@@ -15,5 +15,7 @@ Google Maps Store Locator App via JavaScript (Challenge).
 - ✔ Style the individual store item in the Stores list
 - ✔ Show all the stores in the stores list based on real world data
 - ✔ Show the marker based on real world store data
-- 🛠 Show the info window when you click on the individual store
-- 🛠 Add a beautiful transition on the hover of the individual store
+- ✔ Complete styling for the marker info window
+- 🛠 Open the info window marker on store selection in stores list
+- 🛠 Allow a user to search for the stores in a zip code
+- 🛠 Add a beautiful transition on the hover of the individual store -->

@@ -57,17 +57,39 @@ function showStoresMarkers(){
       store["coordinates"]["longitude"]);
     var name = store["name"];
     var address = store["addressLines"][0];
-
+    var openStatusText = store["openStatusText"];
+    var phoneNumber = store["phoneNumber"];
     bounds.extend(latlng);
-    createMarker(latlng, name, address, index+1)
+    createMarker(latlng, name, address, openStatusText, phoneNumber, index+1)
   }
   map.fitBounds(bounds);
   
 }
 
-function createMarker(latlng, name, address, index) {
-  var html = "<b>" + name + "</b> <br/>" + address;
-          var marker = new google.maps.Marker({
+function createMarker(latlng, name, address, openStatusText, phoneNumber, index) {
+  var html = `
+      <div class="store-info-window">
+        <div class="store-info-name">
+          ${name}
+        </div>
+        <div class="store-info-status">
+          ${openStatusText}
+        </div>
+        <div class="store-info-address">
+          <div class="circle">
+            <i class="fas fa-location-arrow"></i>
+          </div>
+          ${address}
+        </div>
+        <div class="store-info-phone">
+          <div class="circle">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          ${phoneNumber}
+        </div>
+      </div>
+  `
+  var marker = new google.maps.Marker({
             map: map,
             position: latlng,
             label: index.toString(),

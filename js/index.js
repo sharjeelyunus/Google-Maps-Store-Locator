@@ -1,7 +1,5 @@
-
-
 window.onload = function() {
-  displayStores();
+  
 }
 
 var map;
@@ -20,8 +18,19 @@ function initMap() {
       mapTypeId: "roadmap",
     });
     infoWindow = new google.maps.InfoWindow();
+    displayStores();
     showStoresMarkers();
+    setOnClickListener();
   }
+
+function setOnClickListener() {
+  var storeElements = document.querySelectorAll('.stores-container');
+  storeElements.forEach(function(element, index){
+    element.addEventListener('click', function(){
+      new google.maps.event.trigger(markers[index], "click");
+    })
+  })
+}
 
 function displayStores() {
   var storesHtml ='';
@@ -99,5 +108,4 @@ function createMarker(latlng, name, address, openStatusText, phoneNumber, index)
             infoWindow.open(map, marker);
           });
           markers.push(marker);
-  
 }

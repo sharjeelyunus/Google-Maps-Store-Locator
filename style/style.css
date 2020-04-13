@@ -75,6 +75,7 @@ body {
 .store-container {
     border-bottom: 1px solid #979797;
     display: flex;
+    cursor: pointer;
 }
 
 .store-address {

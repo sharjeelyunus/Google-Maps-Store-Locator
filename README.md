@@ -18,4 +18,4 @@ Google Maps Store Locator App via JavaScript (Challenge).
 - ✔ Complete styling for the marker info window
 - ✔ Open the info window marker on store selection in stores list
 - ✔ Allow a user to search for the stores in a zip code
-- 🛠 Add a beautiful transition on the hover of the individual store -->
+- ✔ Add a beautiful transition on the hover of the individual store -->

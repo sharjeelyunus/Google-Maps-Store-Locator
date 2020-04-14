@@ -65,16 +65,18 @@ function displayStores() {
     var phone = store['phoneNumber'];
     storesHtml += `
             <div class="store-container">
-              <div class="store-info-container">
-                <div class="store-address">
-                  <span>${address[0]}</span>
-                  <span>${address[1]}</span>
+              <div class="store-container-background">
+                <div class="store-info-container">
+                  <div class="store-address">
+                    <span>${address[0]}</span>
+                    <span>${address[1]}</span>
+                  </div>
+                  <div class="store-phone-number">${phone}</div>
                 </div>
-                <div class="store-phone-number">${phone}</div>
-              </div>
-              <div class="store-number-container">
-                <div class="store-number">
-                  ${index+1}
+                <div class="store-number-container">
+                  <div class="store-number">
+                    ${index+1}
+                  </div>
                 </div>
               </div>
             </div>

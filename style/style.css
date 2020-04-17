@@ -69,7 +69,6 @@ body {
     bottom: 20px;
     display: flex;
     overflow-y: hidden;
-    padding-bottom: 30px;
 }
 
 .store-container {
@@ -177,4 +176,17 @@ body {
     background-color: #ccc;
     border-radius: 18px;
 
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #454E53;
+    border-radius: 30px;
 }

@@ -13,11 +13,11 @@ body {
 .title {
     position: absolute;
     z-index: 100;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     color: #333;
     text-transform: uppercase;
-    top: 100px;
+    top: 120px;
     left: 100px;
 }
 
@@ -31,6 +31,7 @@ body {
     height: 60px;
     background-color: #454E53;
     display: flex;
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.507);
 }
 
 .search-container .search{
@@ -69,6 +70,7 @@ body {
     bottom: 20px;
     display: flex;
     overflow-y: hidden;
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.308);
 }
 
 .store-container {
@@ -189,4 +191,5 @@ body {
 ::-webkit-scrollbar-thumb {
     background: #454E53;
     border-radius: 30px;
+    height: 30px;
 }
